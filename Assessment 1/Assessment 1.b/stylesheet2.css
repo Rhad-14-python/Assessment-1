@@ -1,0 +1,132 @@
+*{
+    margin:0; 
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+section{
+    width:100%;
+    height:500px;
+   background-color: rgb(0, 0, 0);
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width:88%;
+   position:fixed;
+   z-index:1;
+   padding-top: 40px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.bigbar a {
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 90%;
+    background: #933737; 
+    border-radius: 10px;
+}
+
+ul{
+    width:fit-content;
+    margin:auto;
+    list-style: none;
+   
+}
+
+li a {
+    display: block;
+    background-color: #F0E7E7;
+ }
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 50px;
+}
+
+ul li a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover{
+    color:rgb(254, 47, 47);
+    transition: .3s;
+}
+
+button{
+    border:none;
+    background:rgb(254, 47, 47);
+    padding:12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.3);
+    
+    cursor: pointer;
+}
+
+.H1{ 
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 110px;
+}
+
+hr{
+    border-top: 3px solid orange;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+padding-top: 88px;
+padding-left: 20%;
+padding-right: 20%;
+font-size: 25px;
+}
+
+span{
+    color: red;
+}
+ol{text-align: center;
+    font-size: 30px;
+}
+
+.myParagraph{
+    font-size: 15px;
+}
+
+.H2{
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+h3{
+    color:rgb(241, 36, 36);
+    text-align:center;
+}
+
+.Reviews{
+    font-weight: bold;
+    text-align:center;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(121, 25, 21);
+}

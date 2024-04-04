@@ -1,0 +1,19 @@
+body{background-color:#ffffff; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align:center; font-size: 19px;}
+
+h1{
+    border-top: solid;
+border-bottom: solid;
+border-color: rgb(20, 243, 24) ;}
+
+h2{color:rgb(0, 0, 0)}
+
+h3{color:rgb(0, 0, 0)}
+h3{
+padding:2rem;
+background-color:rgb(20, 243, 24);
+margin:0 auto;
+max-width:20%;
+
+box-sizing: content-box;
+border-radius: 50px;
+}
